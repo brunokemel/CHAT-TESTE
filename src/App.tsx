@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import io, { Socket } from "socket.io-client";
 import { Container, Messages, MessageItem, Form, Input, Button} from  "./Components/styled"
 
-const socket: Socket = io("https://server-production-9856.up.railway.app");
+const socket: Socket = io("https://server-s8zh.onrender.com");
 
 
 
