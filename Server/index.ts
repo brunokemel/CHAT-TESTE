@@ -5,7 +5,8 @@ const httpServer = createServer();
 
 const io = new Server(httpServer, {
     cors: {
-        origin: ["http://localhost:3000", "http://localhost:5173"]
+        origin: "https://chat-teste-kemel.vercel.app/", // frontend
+        methods: ["GET", "POST"]
     },
 });
 
