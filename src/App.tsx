@@ -5,7 +5,8 @@ import { Container, Messages, MessageItem, Form, Input, Button} from  "./Compone
 
 const socket: Socket = io("https://server-s8zh.onrender.com");
 
-
+// MIGRAR APLICACAO PARA NEXT.JS
+// USAR SASS PARA MELHOR CONTROLE DE STYLE´S 
 
 type Message = {
   id: string;
