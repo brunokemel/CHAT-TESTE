@@ -19,10 +19,11 @@ export default function App() {
   const messagesEndRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
+      // BEM-VINDO AO CHAT
     alert("Bem-vindo ao chat!");
-    // Aviso para o usuário sobre o chat
+      // Aviso para o usuário sobre a perda de mensagens
     alert("O servidor não armazenará as mensagens, elas serão perdidas ao recarregar a página.");
-    // Aviso para o usuário sobre a perda de mensagens
+    
   }, []);
 
 
