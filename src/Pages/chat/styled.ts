@@ -1,12 +1,13 @@
 import styled from "styled-components";
+import { color } from "../../Components/Colors";
 
 export const Container = styled.div`
   max-width: 600px;
   margin: 2rem auto;
   padding: 1rem;
-  border: 1px solid #ddd;
+  border: ${color.border};
   border-radius: 6px;
-  background: #f9f9f9;
+  background: ${color.background};
 `;
 
 export const Messages = styled.ul`
@@ -19,9 +20,9 @@ export const Messages = styled.ul`
 export const MessageItem = styled.li`
   padding: 0.5rem;
   margin-bottom: 0.5rem;
-  background: #fff;
+  background: ${color.backgroundBase};
   border-radius: 4px;
-  box-shadow: 0 0 2px #ccc;
+  box-shadow: ${color.boxShadow};
 `;
 
 export const Form = styled.form`
