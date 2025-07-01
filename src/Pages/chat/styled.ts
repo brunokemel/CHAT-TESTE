@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { color } from "../../Components/Colors";
+import { color } from "../../Components/colors";
 
 export const Container = styled.div`
   max-width: 600px;
