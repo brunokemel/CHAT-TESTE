@@ -17,13 +17,13 @@ const socket: Socket = io("https://server-s8zh.onrender.com");
   const [input, setInput] = useState("");
   const messagesEndRef = useRef<HTMLUListElement>(null);
 
-  useEffect(() => {
-      // BEM-VINDO AO CHAT
-    alert("Bem-vindo ao chat!");
-      // Aviso para o usuário sobre a perda de mensagens
-    alert("O servidor não armazenará as mensagens, elas serão perdidas ao recarregar a página.");
+  // useEffect(() => {
+  //     // BEM-VINDO AO CHAT
+  //   alert("Bem-vindo ao chat!");
+  //     // Aviso para o usuário sobre a perda de mensagens
+  //   alert("O servidor não armazenará as mensagens, elas serão perdidas ao recarregar a página.");
     
-  }, []);
+  // }, []);
 
 
   useEffect(() => {
